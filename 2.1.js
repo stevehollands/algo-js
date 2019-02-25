@@ -1,4 +1,12 @@
 const readlineSync = require("readline-sync");
 
-let userName = readlineSync.question('Can you give me your name please?');
-console.log("Hello " + userName);
+let age = readlineSync.question("What's your age ? ");
+if(age>=18)
+{
+  console.log("You're an adult");
+}
+else
+{
+  console.log("You're not an adult");
+}
+
