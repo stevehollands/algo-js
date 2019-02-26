@@ -1,5 +1,7 @@
 const readlineSync = require("readline-sync");
+
 let day = readlineSync.question("kies een getal tussen 1 en 7 : ");
+
 if(day == 1)
 {
   console.log("Monday");
