@@ -1,0 +1,23 @@
+{
+  "name": "algo-js",
+  "version": "1.0.0",
+  "description": "ESLINT",
+  "main": "1.1.js",
+  "dependencies": {
+    "readline-sync": "^1.4.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevehollands/algo-js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stevehollands/algo-js/issues"
+  },
+  "homepage": "https://github.com/stevehollands/algo-js#readme"
+}
