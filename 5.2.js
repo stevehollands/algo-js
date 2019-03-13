@@ -54,16 +54,15 @@ function askTvSerie() {
         return myObject;    
      }     
        
-
-function OtherCast() {
-    myObject.name = readlineSync.question("Can you give me the name of your favorit Tv Serie?");
-    myObject.year = readlineSync.question("What is the production year of this Tv Serie?");
-    randomizeCast(myObject.castmembers);
-    myObject.castmembers.sort();
-
-    return myObject;
-}
-
+     function OtherCast() {
+        myObject.name = readlineSync.question("Can you give me the name of your favorit Tv Serie?");
+        myObject.year = readlineSync.question("What is the production year of this Tv Serie?");
+        randomizeCast(myObject.castmembers);
+        myObject.castmembers.sort();
+    
+        return myObject;
+    }
+    
  
 //output:
     
